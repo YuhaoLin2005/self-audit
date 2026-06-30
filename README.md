@@ -8,7 +8,7 @@ Four-dimension AI output quality audit CLI. Zero dependencies. Stdlib only.
 ## Install
 
 ```bash
-pip install git+https://github.com/YuhaoLin2005/self-audit.git
+pip install git+https://github.com/gategrow/self-audit.git
 ```
 
 ## Usage
