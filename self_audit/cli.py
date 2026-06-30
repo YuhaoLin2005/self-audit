@@ -7,12 +7,17 @@ Usage:
     self-audit --file response.txt --json
     self-audit --version
 """
+from __future__ import annotations
+
 import argparse
 import json
 import re
 import sys
 
-from self_audit import __version__
+try:
+    from self_audit import __version__
+except ImportError:
+    __version__ = "unknown"
 
 
 def check_completeness(text, requirements):
