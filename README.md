@@ -43,9 +43,10 @@ self-audit --version
 
 ## Related
 
-- [self-audit Claude Code skill](https://github.com/anthropics/skills/pull/1361) — Agent-native version
+- [checkgrow](https://github.com/gategrow/checkgrow) — Full AI quality toolkit (self-audit skill + delivery gate + failure patterns)
+- [dual-pool-review](https://github.com/gategrow/dual-pool-review) — Named-persona adversarial review methodology
+- [delivery-gate](https://github.com/gategrow/delivery-gate) — Dual-layer mechanical gate for session quality enforcement
 - [Claude Constitution](https://www.anthropic.com/constitution) (CC0) — Theoretical foundation
-- [Named-Persona Adversarial Review](https://github.com/alirezarezvani/claude-skills/pull/866) — Review methodology
 
 ## License
 
